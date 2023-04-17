@@ -70,49 +70,51 @@ export default function index() {
       
     </div>
 
-    <p><span>이름:한현동 </span><br></br>
-           태어난날:1999 0327 <br></br>
-           전화번호:0106661xxxx <br></br>
-           소프트웨어 공학부 <br></br>
-           좋아하는것:게임,유튜브<br></br>
-        </p>
-        <label>
-            <span>Comment</span><textarea placeholder="저에게 하고싶은말을 남겨주세요"></textarea>
-        </label>
-        <label>
-            <a href="javascript:alert('감사합니다')"><span></span><input type="submit" value="submit"  /> </a>
-        </label>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <footer class="footer">
-      <div class="container"> </div>
-        <p class="text-muted">
-          &copy; Copyright 2023 - 중부대학교 소프트웨어공학부 한현동
-        </p>
-        </footer> 
-      
-        
-    </div>
-        
 
-    
-  );
-}
+
+      <div className={Styles.st}
+>
+<a href="https://ko-kr.facebook.com/"><img src="images/f.png" alt=""/></a>
+</div>
+
+<div className={Styles.st}
+>
+      <a href="https://www.google.com"><img src="images/g.jpg" alt=""/></a>
+    </div>
+    <div className={Styles.st}
+>
+      <a href="https://www.youtube.com/?gl=KR&hl=ko"
+        ><img src="images/y.jpg" alt=""
+      /></a>
+    </div>
+
+    <div className={Styles.st}
+>
+      <a href="https://www.naver.com/"><img src="images/n.jpg" alt=""/></a>
+    </div>
+
+    <div className={Styles.st}
+>
+      <a href="https://www.instagram.com/?hl=ko"
+        ><img src="images/i.jpg" alt=""
+      /></a>
+    </div>
+
+    <div className={Styles.st}
+>
+      <a href="http://www.joongbu.ac.kr/"><img src="images/j.jpg" alt=""/></a>
+    </div>
+
+  
+
+    <div className={Styles.st}
+>
+    <a href="https://namu.wiki/w/%EB%82%98%EB%AC%B4%EC%9C%84%ED%82%A4:%EB%8C%80%EB%AC%B8"
+      ><img src="images/nm.jpg" alt=""
+    /></a>
+
+</div>
+</div>
+
+        );
+      }
